@@ -17,4 +17,12 @@ Finally, the cv2.drawMatchesKnn function is used to draw the matches between the
 
 ![image](https://github.com/user-attachments/assets/99574792-f43c-4797-85e1-a7f0e725a17e) 
 
-This is the main image to be recognized.
+This is the main image 1 to be recognized.
+
+![image](https://github.com/user-attachments/assets/fa9448d6-ff47-4b47-84d2-9b8c4d4e14e7)
+
+This is the image where we need to detect the contents of the image 1
+
+![image](https://github.com/user-attachments/assets/ccd0c692-1348-4ce0-83e6-840ee317f8b3)
+
+This is the output image
