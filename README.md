@@ -15,5 +15,5 @@ A mask (matchesMask) is created to filter out "bad" matches. Initially, all entr
 
 Finally, the cv2.drawMatchesKnn function is used to draw the matches between the two images, with parameters to specify the match color, single point color, match mask, and drawing flags. The resulting image (flann_matches) is displayed using the display function, showing the matched key points between the two images.
 
-![image](https://github.com/user-attachments/assets/99574792-f43c-4797-85e1-a7f0e725a17e) This is the main image to be recognized.
-
+![image](https://github.com/user-attachments/assets/99574792-f43c-4797-85e1-a7f0e725a17e) 
+This is the main image to be recognized.
