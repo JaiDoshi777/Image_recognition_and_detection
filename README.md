@@ -14,3 +14,6 @@ For matching the descriptors between the two images, utilized the FLANN (Fast Li
 A mask (matchesMask) is created to filter out "bad" matches. Initially, all entries are set to [0, 0], meaning no matches are selected. In the filtering loop, the ratio test is performed to identify good matches by comparing the distances of the two closest matches. If the distance of the first match is less than 0.7 times the distance of the second match, the match is considered good and is included in the mask.
 
 Finally, the cv2.drawMatchesKnn function is used to draw the matches between the two images, with parameters to specify the match color, single point color, match mask, and drawing flags. The resulting image (flann_matches) is displayed using the display function, showing the matched key points between the two images.
+
+![image](https://github.com/user-attachments/assets/99574792-f43c-4797-85e1-a7f0e725a17e) This is the main image to be recognized.
+
